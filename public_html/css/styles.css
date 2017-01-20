@@ -1,0 +1,24 @@
+html{
+    margin: 0 0;
+    background-color: goldenrod;
+}
+
+body{
+    margin: 0 0;
+    width: 92vw;
+}
+
+.homme{
+    border: 3px solid cyan;
+    border-radius: 12px;
+}
+
+.femme{
+    border: 3px solid pink;
+    border-radius: 12px;
+}
+#aieux{
+    width: 100%;
+}
+
+
