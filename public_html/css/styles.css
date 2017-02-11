@@ -1,15 +1,21 @@
 html{
     margin: 0 0;
-    background-color: goldenrod;
+    background-color: dimgrey;
 }
 
 body{
-    margin: 0 0;
+    box-sizing: border-box;
+    margin: auto auto;
     width: 92vw;
+    background-color: lightgrey;
+}
+
+table{
+    white-space: nowrap;
 }
 
 .homme{
-    border: 3px solid cyan;
+    border: 3px solid darkblue;
     border-radius: 12px;
 }
 
@@ -17,8 +23,16 @@ body{
     border: 3px solid pink;
     border-radius: 12px;
 }
+
 #aieux{
     width: 100%;
 }
 
+.center{
+    text-align: center;
+}
 
+#symGp{
+    margin: 5px 5px;
+    max-height: 50px;
+}

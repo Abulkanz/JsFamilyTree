@@ -1,24 +1,17 @@
 "use strict";
 
-var indefini = undefined;
-var defaut = "rien";
-
-function Person(name, firstname, age, kind, profession, mother, father, brothers, sisters, profilPicture){
-  this.name = indefini;
-  this.firstname = defaut;
-  this.age = indefini;
-  this.kind = indefini;
-  this.profession = indefini;
-  this.mother = indefini;
-  this.father = indefini;
-  this.brothers = indefini;
-  this.sisters = indefini;
-  this.profilPicture = indefini;
-}
-
-
-
-
+function Person(name, firstname, age, kind, profession, father, mother, brothers, sisters, profilPicture){
+  this.name = name;
+  this.firstname = firstname;
+  this.age = age;
+  this.kind = kind;
+  this.profession = profession;
+  this.mother = mother;
+  this.father = father;
+  this.brothers = brothers;
+  this.sisters = sisters;
+  this.profilPicture = profilPicture;
+};
 
 /*
 function addBrotherOrSister(){
