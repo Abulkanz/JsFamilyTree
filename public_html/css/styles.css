@@ -1,38 +1,14 @@
-html{
-    margin: 0 0;
-    background-color: dimgrey;
+#fond{
+    background-image: url(../img/branche.png);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
 
-body{
-    box-sizing: border-box;
-    margin: auto auto;
-    width: 92vw;
-    background-color: lightgrey;
+a{
+    color: #9d9d9d !important;
 }
 
-table{
-    white-space: nowrap;
-}
 
-.homme{
-    border: 3px solid darkblue;
-    border-radius: 12px;
-}
-
-.femme{
-    border: 3px solid pink;
-    border-radius: 12px;
-}
-
-#aieux{
-    width: 100%;
-}
-
-.center{
-    text-align: center;
-}
-
-#symGp{
-    margin: 5px 5px;
-    max-height: 50px;
-}
