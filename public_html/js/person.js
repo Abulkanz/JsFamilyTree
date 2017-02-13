@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 function Person(name, firstname, age, kind, profession, father, mother, brothers, sisters, profilPicture) {
     this.name = name;
     this.firstname = firstname;
