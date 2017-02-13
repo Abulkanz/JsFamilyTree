@@ -11,4 +11,31 @@ a{
     color: #9d9d9d !important;
 }
 
+.m{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 160px;
+    background-color: rgba(108, 183, 255, 0.5) !important;
+}
 
+.f{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 160px;
+    background-color: rgba(255, 200, 243, 0.5) !important;
+}
+
+table td:last-child{
+    width: 100%;
+    text-align: right;
+}
+
+th,
+td{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+img{
+    max-height: 100px;
+}
