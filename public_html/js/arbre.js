@@ -38,7 +38,7 @@ var family = [granFa1, granMo1, granFa2, granMo2, father1, mother1, daughter1, s
 
 
 for (var i = 0; i < family.length; i++) {
-
+    
 }
 
 //function tableCreate(){
