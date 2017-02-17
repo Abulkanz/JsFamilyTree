@@ -2,7 +2,8 @@
 
 
 
-function Person(name, firstname, age, kind, profession, father, mother, brothers, sisters, profilPicture) {
+function Person(type, name, firstname, age, kind, profession, father, mother, brothers, sisters, profilPicture) {
+    this.type = type;
     this.name = name;
     this.firstname = firstname;
     this.age = age;
